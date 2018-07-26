@@ -1,0 +1,273 @@
+Overview
+
+Overview                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+IMPROVE Data Use: For journal publications, please inform Loretta Wilson (loretta.wilson@colostate.edu) of the planned publication. Drafts of publications will be reviewed upon request for issues that could affect the data interpretation. Preferred Reference: Please reference the Malm,et al. (1994) article below when using IMPROVE data. Malm, W. C., J. F. Sisler, D. Huffman, R. A. Eldred, and T. A. Cahill (1994), Spatial and seasonal trends in particle concentration and optical extinction in the United States, J. Geophys. Res., 99, 1347-1370. Preferred Acknowledgment: IMPROVE is a collaborative association of state, tribal, and federal agencies, and international partners. US Environmental Protection Agency is the primary funding source, with contracting and research support from the National Park Service. The Air Quality Group at the University of California, Davis is the central analytical laboratory, with ion analysis provided by Research Triangle Institute, and carbon analysis provided by Desert Research Institute.
+(Also: Prior to use, all data users are encouraged to review the IMPROVE data advisories located on the IMPROVE website: http://vista.cira.colostate.edu/IMPROVE/Data/QA_QC/Advisory.htm)  
+
+Datasets
+
+Dataset          Code      StartDate             EndDate                Frequency  NumRecords  
+IMPROVE Aerosol  IMPFSPED  3/2/1988 12:00:00 AM  4/28/2017 12:00:00 AM  Daily      25066383    
+
+Sites
+
+Site         Code   Dataset   State  County  Latitude  Longitude   Elevation  StartDate   EndDate     NumPOCs  
+Big Bend NP  BIBE1  IMPFSPED  TX     48043   29.30270  -103.17800  1066       03/02/1988  06/30/2017  2        
+
+Parameters
+
+DatasetID  Parameter                       Code      AQSCode  Units      Description                                                                                                                                                                                                                                                                                                                                                                                                          
+10001      Ammonium Nitrate (Fine)         ammNO3f   88344    ug/m^3 LC  -999                                                                                                                                                                                                                                                                                                                                                                                                                 
+10001      Ammonium Sulfate (Fine)         ammSO4f   88339    ug/m^3 LC  If particulate Sulfur (Sf) is non-null, then ammSO4f is calculated as 4.125 * Sulfur.  Otherwise, it is calculated as 1.375 * Sulfate (SO4f).  If the concentration of the base parameter (Sf or SO4f) is below the minimum detection limit, then 0.5 * MDL is used.  (NOTE:  The calculation procedure for RHR datasets differs from this. Please see the RHR guidance documents detailed calculation procedures.)  
+10001      Carbon, Elemental Total (Fine)  ECf       88307    ug/m^3 LC  From TOR carbon fractions (E1+E2+E3-OP)                                                                                                                                                                                                                                                                                                                                                                              
+10001      Carbon, Organic Total (Fine)    OCf       88320    ug/m^3 LC  From TOR carbon fractions (OC1+OC2+OC3+OC4+OP)                                                                                                                                                                                                                                                                                                                                                                       
+10001      Mass, PM2.5 (Fine)              MF        88101    ug/m^3 LC  Gravimetric fine mass                                                                                                                                                                                                                                                                                                                                                                                                
+10001      Sea Salt (Fine)                 SeaSaltf  88395    ug/m^3 LC  1.8 x [Chloride], or 1.8 x [Chlorine] if the chloride measurement is below detection limits, missing or invalid.                                                                                                                                                                                                                                                                                                     
+10001      Soil (Fine)                     SOILf     88348    ug/m^3 LC  -999                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+Site History
+
+History  Dataset   EntryType    EntryDate   Description                                                               
+BIBE1    IMPFSPED  Method       06/28/1994  Changed nylon filter size from 47mm diameter to 25mm                      
+BIBE1    IMPFSPED  Method       06/28/1994  Changed nylon filter size from 47mm diameter to 25mm                      
+BIBE1    IMPFSPED  Operational  09/04/1994  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/04/1994  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Event        04/19/1995  Severe dust storms this week                                              
+BIBE1    IMPFSPED  Event        04/19/1995  Severe dust storms this week                                              
+BIBE1    IMPFSPED  Event        05/06/1995  Very windy and dusty on on this date                                      
+BIBE1    IMPFSPED  Event        05/06/1995  Very windy and dusty on on this date                                      
+BIBE1    IMPFSPED  Operational  05/20/1995  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/20/1995  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  A1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Method       07/30/1996  Added glycerin to Module B1 denuder                                       
+BIBE1    IMPFSPED  Operational  07/30/1996  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  B1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  C1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  D1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  A1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Method       07/30/1996  Added glycerin to Module B1 denuder                                       
+BIBE1    IMPFSPED  Operational  07/30/1996  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  B1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  C1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/30/1996  D1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  07/30/1996  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  07/31/1996  Off Line for Special Study at Site                                        
+BIBE1    IMPFSPED  Operational  07/31/1996  Off Line for Special Study at Site                                        
+BIBE1    IMPFSPED  Operational  10/16/1996  Back On Line after special study at site                                  
+BIBE1    IMPFSPED  Operational  10/16/1996  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  10/16/1996  Back On Line after special study at site                                  
+BIBE1    IMPFSPED  Operational  10/16/1996  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  03/03/1997  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  03/03/1997  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Event        04/23/1997  dust storms this week                                                     
+BIBE1    IMPFSPED  Event        04/23/1997  dust storms this week                                                     
+BIBE1    IMPFSPED  Event        07/16/1997  Small prescribed fire on 7/15/97                                          
+BIBE1    IMPFSPED  Event        07/16/1997  Small prescribed fire on 7/15/97                                          
+BIBE1    IMPFSPED  Operational  07/28/1997  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/28/1997  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Event        03/04/1998  Severe dust storm                                                         
+BIBE1    IMPFSPED  Event        03/04/1998  Severe dust storm                                                         
+BIBE1    IMPFSPED  Event        05/20/1998  heavy smoke                                                               
+BIBE1    IMPFSPED  Event        05/20/1998  heavy smoke                                                               
+BIBE1    IMPFSPED  Event        05/23/1998  heavy smoke                                                               
+BIBE1    IMPFSPED  Event        05/23/1998  heavy smoke                                                               
+BIBE1    IMPFSPED  Operational  09/07/1998  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  A1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  B1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  C1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  D1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  A1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  B1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  C1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  09/07/1998  D1 Module pumps Replaced                                                  
+BIBE1    IMPFSPED  Operational  09/07/1998  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Event        05/05/1999  Fire 6 miles NW of site                                                   
+BIBE1    IMPFSPED  Event        05/05/1999  Fire 6 miles NW of site                                                   
+BIBE1    IMPFSPED  Operational  06/30/1999  Off Line for Special Study at Site                                        
+BIBE1    IMPFSPED  Operational  06/30/1999  Off Line for Special Study at Site                                        
+BIBE1    IMPFSPED  Operational  07/28/1999  Back On Line after special study at site                                  
+BIBE1    IMPFSPED  Operational  07/28/1999  Back On Line after special study at site                                  
+BIBE1    IMPFSPED  Operational  08/31/1999  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/31/1999  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  Version 2 sampler installed                                               
+BIBE1    IMPFSPED  Operational  04/12/2000  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  04/12/2000  Version 2 sampler installed                                               
+BIBE1    IMPFSPED  Operational  04/12/2000  Version 2 IMPROVE sampler installed                                       
+BIBE1    IMPFSPED  Operational  04/12/2000  Version 2 IMPROVE sampler installed                                       
+BIBE1    IMPFSPED  Operational  08/23/2000  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  Photos Taken                                                              
+BIBE1    IMPFSPED  Operational  08/23/2000  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/23/2000  Photos Taken                                                              
+BIBE1    IMPFSPED  Operational  08/23/2000  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Event        09/20/2000  dust storm                                                                
+BIBE1    IMPFSPED  Event        09/20/2000  dust storm                                                                
+BIBE1    IMPFSPED  Operational  11/05/2000  Power Supply problems until 1/19/2001                                     
+BIBE1    IMPFSPED  Operational  11/05/2000  Power Supply problems until 1/19/2001                                     
+BIBE1    IMPFSPED  Operational  04/25/2001  A1 Module area increased from 2.20 to 3.53 sq cm                          
+BIBE1    IMPFSPED  Operational  04/25/2001  A1 Module area increased from 2.20 to 3.53 sq cm                          
+BIBE1    IMPFSPED  Event        06/27/2001  poor visibility-dust cloud                                                
+BIBE1    IMPFSPED  Event        06/27/2001  poor visibility-dust cloud                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  07/25/2001  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  12/07/2001  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  12/07/2001  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  12/07/2001  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  12/07/2001  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  02/02/2003  D1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  02/02/2003  D1 Module pump Replaced                                                   
+BIBE1    IMPFSPED  Operational  03/02/2003  A1 Module pumps replaced                                                  
+BIBE1    IMPFSPED  Operational  03/02/2003  B1 Module pumps replaced                                                  
+BIBE1    IMPFSPED  Operational  03/02/2003  A1 Module pumps replaced                                                  
+BIBE1    IMPFSPED  Operational  03/02/2003  B1 Module pumps replaced                                                  
+BIBE1    IMPFSPED  Operational  08/30/2003  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  Calibrated collocated B1 Module                                           
+BIBE1    IMPFSPED  Operational  08/30/2003  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  Installed collocated B1 Module                                            
+BIBE1    IMPFSPED  Operational  08/30/2003  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  Calibrated collocated B1 Module                                           
+BIBE1    IMPFSPED  Operational  08/30/2003  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  08/30/2003  Installed collocated B1 Module                                            
+BIBE1    IMPFSPED  Operational  08/30/2003  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  Calibrated collocated B1 Module                                           
+BIBE1    IMPFSPED  Operational  05/18/2004  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  A1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  B1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  C1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  Calibrated collocated B1 Module                                           
+BIBE1    IMPFSPED  Operational  05/18/2004  D1 Module Flow Calibration                                                
+BIBE1    IMPFSPED  Operational  05/18/2004  Routine annual maintenance                                                
+BIBE1    IMPFSPED  Operational  08/20/2004  Pump replaced on collocated B1 Module                                     
+BIBE1    IMPFSPED  Operational  08/20/2004  Pump replaced on collocated B1 Module                                     
+BIBE1    IMPFSPED  Operational  10/18/2004  Pump replaced on collocated B1 Module                                     
+BIBE1    IMPFSPED  Operational  10/18/2004  Pump replaced on collocated B1 Module                                     
+BIBE1    IMPFSPED  Operational  12/17/2004  Collocated B1 Module pump replaced                                        
+BIBE1    IMPFSPED  Operational  12/17/2004  Collocated B1 Module pump replaced                                        
+BIBE1    IMPFSPED  Operational  04/20/2005  B1 Module pump replaced                                                   
+BIBE1    IMPFSPED  Operational  04/20/2005  B1 Module pump replaced                                                   
+
+Dataset History
+
+History   EntryType      EntryDate   Description                                                                                                                                                                                                                                                                                                                                                                                                                                             
+IMPFSPED  Analysis Note  09/15/1990  Ion analysis contractor switched from Research Triangle Institute (RTI) to Global Geochemistry Company (GGC). Ion samples extracted using anion eluent.                                                                                                                                                                                                                                                                                                 
+IMPFSPED  Analysis Note  06/01/1992  Analysis of elements with atomic numbers from Fe to Pb was changed from PIXE to XRF in air with Mo anode source, lowering their minimum detection limits (MDL). The cyclotron time for the PIXE analysis was reduced raising the MDLs for elements below FE.                                                                                                                                                                                            
+IMPFSPED  Analysis Note  03/01/1994  Optical absorption measurement changed from Laser Integrating Plate Method (LIPM) to Hybrid Integrating Plate/Sphere Analysis (HIPS).                                                                                                                                                                                                                                                                                                                   
+IMPFSPED  Sampling Note  06/01/1994  Started changing nylon filter size from 47mm diameter to 25mm.  Phased in during 1994 site maintenance visits, see individual site histories for exact dates.                                                                                                                                                                                                                                                                                           
+IMPFSPED  Sampling Note  01/01/1995  Started unmasking Module A filters, increasing deposit area from 2.2 sq. cm to 3.5 sq. cm.  Phased in during site maintenance visits over several years, see individual site histories for exact dates.                                                                                                                                                                                                                                                 
+IMPFSPED  Analysis Note  05/23/1995  Ion analysis switched to Research Triangle Institute (RTI). Ion samples extracted using anion eluent.                                                                                                                                                                                                                                                                                                                                                   
+IMPFSPED  Sampling Note  01/01/1996  Added glycerin to Module B denuders. Phased in during 1996 site maintenance visits, see individual site histories for exact dates.                                                                                                                                                                                                                                                                                                                      
+IMPFSPED  Sampling Note  10/01/1996  Changed nylon filter manufactures from Gleman to MSI                                                                                                                                                                                                                                                                                                                                                                                                    
+IMPFSPED  Analysis Note  06/01/1997  Ion samples extracted using DI water at GRSM1, SHEN1, DOSO1. All other sites extracted with anion eluent.                                                                                                                                                                                                                                                                                                                                               
+IMPFSPED  Analysis Note  12/16/1998  Ion samples extracted using DI water at all sites                                                                                                                                                                                                                                                                                                                                                                                                       
+IMPFSPED  Sampling Note  07/27/2001  Secondary quartz filter added to carbon sampling train at CHIR1. Artifact correction based on secondary filters from CHIR1, HANC1, MORA1, SHEN1, YOSE1.                                                                                                                                                                                                                                                                                                 
+IMPFSPED  Sampling Note  08/08/2001  Secondary quartz filter added to carbon sampling train at OKEF1and included in artifact correction.                                                                                                                                                                                                                                                                                                                                                     
+IMPFSPED  Analysis Note  12/01/2001  Analysis of elements with atomic numbers from Na to Fe was changed from PIXE (for Na to Mn) or Mo-anode XRF (for Fe) to XRF with a Cu anode source in a He-flushed atmosphere.                                                                                                                                                                                                                                                                          
+IMPFSPED  Analysis Note  06/01/2002  Changed from quarterly to monthly medians to estimate carbon artifact corrections from field blanks & secondary filters                                                                                                                                                                                                                                                                                                                                 
+IMPFSPED  Analysis Note  10/01/2002  Standardized XRF run times at 1000 seconds                                                                                                                                                                                                                                                                                                                                                                                                              
+IMPFSPED  Sampling Note  01/01/2004  Changed module B nylon filter supplier from Osmonics to Pall-Gelman                                                                                                                                                                                                                                                                                                                                                                                     
+IMPFSPED  Analysis Note  01/01/2005  Implemented IMPROVE_A protocol for OC and EC analyses using the next generation DRI Model 2001 Thermal/Optical Carbon Analyzer.                                                                                                                                                                                                                                                                                                                         
+IMPFSPED  Analysis Note  01/01/2005  The He-flushed atmosphere used for Cu-anode XRF (of elements with atomic numbers from Na to Fe) was replaced by vacuum.                                                                                                                                                                                                                                                                                                                                 
+IMPFSPED  Sampling Note  08/07/2008  Secondary quartz filter added to carbon sampling train at five additional sites (BLMO1, LYBR1, PHOE1, PHOE5, YELL1). All secondary OC sites began to collect double field blanks. Field blank collection at all other sites ended. All collected secondary filters are used to calculate monthly median artifact correction for carbon fractions. Secondary OC filter sites existing prior to this time were CHIR1, HANC1, MORA1, OKEF1, SHNE1, YOSE1.  
+IMPFSPED  Sampling Note  05/01/2009  Secondary quartz filter added to carbon sampling train at HEGL1 along with double field blank collection.  HEGL1 data are included in the monthly median artifact correction calculation. An additional collocated quartz filter module was added to collect single quartz filters.                                                                                                                                                                     
+IMPFSPED  Sampling Note  06/24/2009  Secondary quartz filter added to carbon sampling train at WASH1 along with double field blank collection.  WASH1 data are included in the monthly median artifact correction calculation.                                                                                                                                                                                                                                                               
+IMPFSPED  Analysis Note  01/01/2011  Analysis of all elements shifted from legacy XRF systems to commercial PANalytical Epsilon5 instruments using multiple secondary targets.                                                                                                                                                                                                                                                                                                               
+IMPFSPED  Sampling Note  01/01/2013  Changed from double quartz field blanks to single quartz field blanks at all sites which have field blanks.                                                                                                                                                                                                                                                                                                                                             
+IMPFSPED  Sampling Note  01/01/2013  Introduced new sample holders (cassettes) into network with new support screen design.  Screens were distributed throughout network over a two week period.                                                                                                                                                                                                                                                                                             
+
+Status Flags
+
+Status Flag  Description                                                                         
+H1           Historical data that have not been assessed or validated.                           
+I0           Invalid value - unknown reason                                                      
+I1           Invalid value - known reason                                                        
+I2           Invalid value (-999), though sample-level flag seems valid (SEM)                    
+M1           Missing value because no value is available                                         
+M2           Missing value because invalidated by data originator                                
+M3           Missing value due to clogged filter                                                 
+NA           Not available from source data                                                      
+V0           Valid value                                                                         
+V1           Valid value but comprised wholly or partially of below detection limit data         
+V2           Valid estimated value                                                               
+V3           Valid interpolated value                                                            
+V4           Valid value despite failing to meet some QC or statistical criteria                 
+V5           Valid value but qualified because of possible contamination                         
+V6           Valid value but qualified due to non-standard sampling conditions                   
+V7           Valid value set equal to the detection limit (DL) since the value was below the DL  
+VM           Valid modeled value                                                                 
+VS           Valid substituted value                                                             
+
+Data
+
